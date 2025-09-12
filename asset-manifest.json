@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/My-portfolio/static/css/main.6c948be0.css",
+    "main.js": "/My-portfolio/static/js/main.549569e9.js",
+    "static/css/64.bba8fa55.chunk.css": "/My-portfolio/static/css/64.bba8fa55.chunk.css",
+    "static/js/64.56dc6704.chunk.js": "/My-portfolio/static/js/64.56dc6704.chunk.js",
+    "static/css/769.b3cbb36b.chunk.css": "/My-portfolio/static/css/769.b3cbb36b.chunk.css",
+    "static/js/769.bda0d7b7.chunk.js": "/My-portfolio/static/js/769.bda0d7b7.chunk.js",
+    "static/media/Montserrat-Regular.ttf": "/My-portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/Agustina.woff": "/My-portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/brillius_logo.png": "/My-portfolio/static/media/brillius_logo.2f511e552d8e4904a80d.png",
+    "static/media/manOnTable.svg": "/My-portfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/contactMailDark.svg": "/My-portfolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/rag_edtech.png": "/My-portfolio/static/media/rag_edtech.b16b90b83c281bb14252.png",
+    "static/media/developerActivity.svg": "/My-portfolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/driver_monitor.png": "/My-portfolio/static/media/driver_monitor.f31b7701c956a8b4701a.png",
+    "static/media/cambridge_logo.png": "/My-portfolio/static/media/cambridge_logo.9f56942428336f516796.png",
+    "static/media/voice_interaction.png": "/My-portfolio/static/media/voice_interaction.18c0b9579466db1c9345.png",
+    "static/media/skill.svg": "/My-portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "static/media/resume.pdf": "/My-portfolio/static/media/resume.f0f733dd3cd732b39262.pdf",
+    "index.html": "/My-portfolio/index.html",
+    "static/media/talksCardBack.svg": "/My-portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.6c948be0.css.map": "/My-portfolio/static/css/main.6c948be0.css.map",
+    "main.549569e9.js.map": "/My-portfolio/static/js/main.549569e9.js.map",
+    "64.bba8fa55.chunk.css.map": "/My-portfolio/static/css/64.bba8fa55.chunk.css.map",
+    "64.56dc6704.chunk.js.map": "/My-portfolio/static/js/64.56dc6704.chunk.js.map",
+    "769.b3cbb36b.chunk.css.map": "/My-portfolio/static/css/769.b3cbb36b.chunk.css.map",
+    "769.bda0d7b7.chunk.js.map": "/My-portfolio/static/js/769.bda0d7b7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c948be0.css",
+    "static/js/main.549569e9.js"
+  ]
+}
