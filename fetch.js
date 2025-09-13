@@ -112,7 +112,7 @@ if (MEDIUM_USERNAME && MEDIUM_USERNAME !== "YOU MEDIUM USERNAME HERE" && !MEDIUM
 
     console.log(`statusCode: ${res.statusCode}`);
     if (res.statusCode !== 200) {
-      throw new Error(ERR.requestMediumFailed);
+      throw new Error(ERR.requestFailedMedium);
     }
 
     res.on("data", d => {
