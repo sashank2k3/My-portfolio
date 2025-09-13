@@ -20,11 +20,11 @@ const ERR = {
 console.log("GitHub data fetching is disabled (USE_GITHUB_DATA=false)");
 
 if (USE_GITHUB_DATA === "true") {
-  if (GITHUB_USERNAME === undefined) {
-    throw new Error(ERR.noUserName);
-  }
-
-  console.log(`Fetching profile data for ${GITHUB_USERNAME}`);
+  if (GITHUB_USERNAME === undefined || GITHUB_USERNAME === "YOUR GITHUB USERNAME HERE" || GITHUB_USERNAME.includes("YOUR")) {
+    console.log("GitHub username not properly configured, skipping GitHub data fetch");
+    // Skip GitHub data fetching
+  } else {
+    console.log(`Fetching profile data for ${GITHUB_USERNAME}`);
   var data = JSON.stringify({
     query: `
 {
@@ -95,9 +95,10 @@ if (USE_GITHUB_DATA === "true") {
 
   req.write(data);
   req.end();
+  }
 }
 
-if (MEDIUM_USERNAME !== undefined) {
+if (MEDIUM_USERNAME && MEDIUM_USERNAME !== "YOU MEDIUM USERNAME HERE" && !MEDIUM_USERNAME.includes("YOUR")) {
   console.log(`Fetching Medium blogs data for ${MEDIUM_USERNAME}`);
   const options = {
     hostname: "api.rss2json.com",
