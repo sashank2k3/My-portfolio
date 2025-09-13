@@ -170,7 +170,7 @@ const workExperiences = {
 
 /* Your Open Source Section to View Your Github Pinned Projects */
 const openSource = {
-  showGithubProfile: "true",
+  showGithubProfile: "false",
   display: true
 };
 
