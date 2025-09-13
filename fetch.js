@@ -5,7 +5,7 @@ require("dotenv").config();
 
 const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN;
 const GITHUB_USERNAME = process.env.GITHUB_USERNAME;
-const USE_GITHUB_DATA = process.env.USE_GITHUB_DATA;
+const USE_GITHUB_DATA = process.env.USE_GITHUB_DATA || "false";
 const MEDIUM_USERNAME = process.env.MEDIUM_USERNAME;
 
 const ERR = {
@@ -16,6 +16,9 @@ const ERR = {
   requestFailedMedium:
     "The request to Medium didn't succeed. Check if Medium username in your .env file is correct."
 };
+
+console.log("GitHub data fetching is disabled (USE_GITHUB_DATA=false)");
+
 if (USE_GITHUB_DATA === "true") {
   if (GITHUB_USERNAME === undefined) {
     throw new Error(ERR.noUserName);
